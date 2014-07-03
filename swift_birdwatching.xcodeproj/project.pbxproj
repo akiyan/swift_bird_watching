@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77787DB61965506E00895286 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77787DB51965506E00895286 /* AppDelegate.swift */; };
+		77787DB81965506E00895286 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77787DB71965506E00895286 /* MasterViewController.swift */; };
+		77787DBA1965506E00895286 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77787DB91965506E00895286 /* DetailViewController.swift */; };
+		77787DBD1965506E00895286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77787DBB1965506E00895286 /* Main.storyboard */; };
+		77787DBF1965506E00895286 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77787DBE1965506E00895286 /* Images.xcassets */; };
+		77787DCB1965506E00895286 /* swift_birdwatchingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77787DCA1965506E00895286 /* swift_birdwatchingTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77787DC51965506E00895286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77787DA81965506E00895286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77787DAF1965506E00895286;
+			remoteInfo = swift_birdwatching;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77787DB01965506E00895286 /* swift_birdwatching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_birdwatching.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77787DB41965506E00895286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77787DB51965506E00895286 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77787DB71965506E00895286 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		77787DB91965506E00895286 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		77787DBC1965506E00895286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77787DBE1965506E00895286 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		77787DC41965506E00895286 /* swift_birdwatchingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_birdwatchingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77787DC91965506E00895286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77787DCA1965506E00895286 /* swift_birdwatchingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_birdwatchingTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77787DAD1965506E00895286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77787DC11965506E00895286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77787DA71965506E00895286 = {
+			isa = PBXGroup;
+			children = (
+				77787DB21965506E00895286 /* swift_birdwatching */,
+				77787DC71965506E00895286 /* swift_birdwatchingTests */,
+				77787DB11965506E00895286 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77787DB11965506E00895286 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77787DB01965506E00895286 /* swift_birdwatching.app */,
+				77787DC41965506E00895286 /* swift_birdwatchingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77787DB21965506E00895286 /* swift_birdwatching */ = {
+			isa = PBXGroup;
+			children = (
+				77787DB51965506E00895286 /* AppDelegate.swift */,
+				77787DB71965506E00895286 /* MasterViewController.swift */,
+				77787DB91965506E00895286 /* DetailViewController.swift */,
+				77787DBB1965506E00895286 /* Main.storyboard */,
+				77787DBE1965506E00895286 /* Images.xcassets */,
+				77787DB31965506E00895286 /* Supporting Files */,
+			);
+			path = swift_birdwatching;
+			sourceTree = "<group>";
+		};
+		77787DB31965506E00895286 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77787DB41965506E00895286 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77787DC71965506E00895286 /* swift_birdwatchingTests */ = {
+			isa = PBXGroup;
+			children = (
+				77787DCA1965506E00895286 /* swift_birdwatchingTests.swift */,
+				77787DC81965506E00895286 /* Supporting Files */,
+			);
+			path = swift_birdwatchingTests;
+			sourceTree = "<group>";
+		};
+		77787DC81965506E00895286 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77787DC91965506E00895286 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77787DAF1965506E00895286 /* swift_birdwatching */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77787DCE1965506E00895286 /* Build configuration list for PBXNativeTarget "swift_birdwatching" */;
+			buildPhases = (
+				77787DAC1965506E00895286 /* Sources */,
+				77787DAD1965506E00895286 /* Frameworks */,
+				77787DAE1965506E00895286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swift_birdwatching;
+			productName = swift_birdwatching;
+			productReference = 77787DB01965506E00895286 /* swift_birdwatching.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77787DC31965506E00895286 /* swift_birdwatchingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77787DD11965506E00895286 /* Build configuration list for PBXNativeTarget "swift_birdwatchingTests" */;
+			buildPhases = (
+				77787DC01965506E00895286 /* Sources */,
+				77787DC11965506E00895286 /* Frameworks */,
+				77787DC21965506E00895286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77787DC61965506E00895286 /* PBXTargetDependency */,
+			);
+			name = swift_birdwatchingTests;
+			productName = swift_birdwatchingTests;
+			productReference = 77787DC41965506E00895286 /* swift_birdwatchingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77787DA81965506E00895286 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "nanapi Inc";
+				TargetAttributes = {
+					77787DAF1965506E00895286 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					77787DC31965506E00895286 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 77787DAF1965506E00895286;
+					};
+				};
+			};
+			buildConfigurationList = 77787DAB1965506E00895286 /* Build configuration list for PBXProject "swift_birdwatching" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77787DA71965506E00895286;
+			productRefGroup = 77787DB11965506E00895286 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77787DAF1965506E00895286 /* swift_birdwatching */,
+				77787DC31965506E00895286 /* swift_birdwatchingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77787DAE1965506E00895286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77787DBD1965506E00895286 /* Main.storyboard in Resources */,
+				77787DBF1965506E00895286 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77787DC21965506E00895286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77787DAC1965506E00895286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77787DBA1965506E00895286 /* DetailViewController.swift in Sources */,
+				77787DB81965506E00895286 /* MasterViewController.swift in Sources */,
+				77787DB61965506E00895286 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77787DC01965506E00895286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77787DCB1965506E00895286 /* swift_birdwatchingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77787DC61965506E00895286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77787DAF1965506E00895286 /* swift_birdwatching */;
+			targetProxy = 77787DC51965506E00895286 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77787DBB1965506E00895286 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77787DBC1965506E00895286 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77787DCC1965506E00895286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77787DCD1965506E00895286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77787DCF1965506E00895286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = swift_birdwatching/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77787DD01965506E00895286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = swift_birdwatching/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		77787DD21965506E00895286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/swift_birdwatching.app/swift_birdwatching";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = swift_birdwatchingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		77787DD31965506E00895286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/swift_birdwatching.app/swift_birdwatching";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = swift_birdwatchingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77787DAB1965506E00895286 /* Build configuration list for PBXProject "swift_birdwatching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77787DCC1965506E00895286 /* Debug */,
+				77787DCD1965506E00895286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77787DCE1965506E00895286 /* Build configuration list for PBXNativeTarget "swift_birdwatching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77787DCF1965506E00895286 /* Debug */,
+				77787DD01965506E00895286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77787DD11965506E00895286 /* Build configuration list for PBXNativeTarget "swift_birdwatchingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77787DD21965506E00895286 /* Debug */,
+				77787DD31965506E00895286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77787DA81965506E00895286 /* Project object */;
+}
