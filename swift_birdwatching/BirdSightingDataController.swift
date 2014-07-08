@@ -18,11 +18,11 @@ class BirdSightingDataController: NSObject {
     }
     
     func objectInListAtIndex(theIndex:Int) -> BirdSighting {
-        return self.masterBirdSightingList[theIndex];
+        return self.masterBirdSightingList[theIndex]
     }
     
     func addBirdSightingWithSighting(sighting:BirdSighting) {
-        self.masterBirdSightingList += sighting
+        return self.masterBirdSightingList += sighting
     }
     
     func initializeDefaultDataList() -> Void {
