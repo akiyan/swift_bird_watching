@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7714D888196A9D500059EC07 /* BirdSighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7714D886196A9D500059EC07 /* BirdSighting.swift */; };
+		7714D889196A9D500059EC07 /* BirdSightingDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7714D887196A9D500059EC07 /* BirdSightingDataController.swift */; };
 		77787DB61965506E00895286 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77787DB51965506E00895286 /* AppDelegate.swift */; };
-		77787DB81965506E00895286 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77787DB71965506E00895286 /* MasterViewController.swift */; };
-		77787DBA1965506E00895286 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77787DB91965506E00895286 /* DetailViewController.swift */; };
+		77787DB81965506E00895286 /* BirdsMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77787DB71965506E00895286 /* BirdsMasterViewController.swift */; };
+		77787DBA1965506E00895286 /* BirdsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77787DB91965506E00895286 /* BirdsDetailViewController.swift */; };
 		77787DBD1965506E00895286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77787DBB1965506E00895286 /* Main.storyboard */; };
 		77787DBF1965506E00895286 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77787DBE1965506E00895286 /* Images.xcassets */; };
 		77787DCB1965506E00895286 /* swift_birdwatchingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77787DCA1965506E00895286 /* swift_birdwatchingTests.swift */; };
@@ -26,11 +28,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7714D886196A9D500059EC07 /* BirdSighting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirdSighting.swift; sourceTree = "<group>"; };
+		7714D887196A9D500059EC07 /* BirdSightingDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirdSightingDataController.swift; sourceTree = "<group>"; };
 		77787DB01965506E00895286 /* swift_birdwatching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_birdwatching.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77787DB41965506E00895286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77787DB51965506E00895286 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77787DB71965506E00895286 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		77787DB91965506E00895286 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		77787DB71965506E00895286 /* BirdsMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdsMasterViewController.swift; sourceTree = "<group>"; };
+		77787DB91965506E00895286 /* BirdsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdsDetailViewController.swift; sourceTree = "<group>"; };
 		77787DBC1965506E00895286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77787DBE1965506E00895286 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		77787DC41965506E00895286 /* swift_birdwatchingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_birdwatchingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,8 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				77787DB51965506E00895286 /* AppDelegate.swift */,
-				77787DB71965506E00895286 /* MasterViewController.swift */,
-				77787DB91965506E00895286 /* DetailViewController.swift */,
+				77787DB71965506E00895286 /* BirdsMasterViewController.swift */,
+				77787DB91965506E00895286 /* BirdsDetailViewController.swift */,
+				7714D886196A9D500059EC07 /* BirdSighting.swift */,
+				7714D887196A9D500059EC07 /* BirdSightingDataController.swift */,
 				77787DBB1965506E00895286 /* Main.storyboard */,
 				77787DBE1965506E00895286 /* Images.xcassets */,
 				77787DB31965506E00895286 /* Supporting Files */,
@@ -211,9 +217,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77787DBA1965506E00895286 /* DetailViewController.swift in Sources */,
-				77787DB81965506E00895286 /* MasterViewController.swift in Sources */,
+				77787DBA1965506E00895286 /* BirdsDetailViewController.swift in Sources */,
+				77787DB81965506E00895286 /* BirdsMasterViewController.swift in Sources */,
+				7714D889196A9D500059EC07 /* BirdSightingDataController.swift in Sources */,
 				77787DB61965506E00895286 /* AppDelegate.swift in Sources */,
+				7714D888196A9D500059EC07 /* BirdSighting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +409,7 @@
 				77787DD01965506E00895286 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77787DD11965506E00895286 /* Build configuration list for PBXNativeTarget "swift_birdwatchingTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +418,7 @@
 				77787DD31965506E00895286 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
