@@ -8,12 +8,29 @@
 
 import UIKit
 
-class BirdsMasterViewController: UITableViewController {
+@objc(BirdsMasterViewController) class BirdsMasterViewController: UITableViewController {
 
 //    var objects = NSMutableArray()
     var dataController:BirdSightingDataController = BirdSightingDataController()
     var CellIdentifier:String = "BirdSightingCell"
     var formatter:NSDateFormatter = NSDateFormatter()
+    
+    @IBAction func done(segue:UIStoryboardSegue) {
+        if (segue.identifier == "ReturnInput") {
+            var addController:AddSightingViewController = segue.sourceViewController as AddSightingViewController
+            if (addController.birdSighting) {
+                self.dataController.addBirdSightingWithSighting(addController.birdSighting as BirdSighting)
+                self.tableView.reloadData()
+            }
+            self.dismissViewControllerAnimated(true, completion: nil)
+        }
+    }
+    
+    @IBAction func cancel(segue:UIStoryboardSegue) {
+        if (segue.identifier == "CancelInput") {
+            self.dismissViewControllerAnimated(true, completion: nil)
+        }
+    }
 
     override func awakeFromNib() {
         super.awakeFromNib()
