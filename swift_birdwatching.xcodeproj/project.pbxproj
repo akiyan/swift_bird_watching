@@ -42,7 +42,6 @@
 		77787DC91965506E00895286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77787DCA1965506E00895286 /* swift_birdwatchingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_birdwatchingTests.swift; sourceTree = "<group>"; };
 		77E5083C196D3E4700AF0963 /* AddSightingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSightingViewController.swift; sourceTree = "<group>"; };
-		77E5083E196E913E00AF0963 /* BirdsMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BirdsMasterViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				77787DB51965506E00895286 /* AppDelegate.swift */,
-				77E5083E196E913E00AF0963 /* BirdsMasterViewController.h */,
 				77787DB71965506E00895286 /* BirdsMasterViewController.swift */,
 				77787DB91965506E00895286 /* BirdsDetailViewController.swift */,
 				7714D886196A9D500059EC07 /* BirdSighting.swift */,
